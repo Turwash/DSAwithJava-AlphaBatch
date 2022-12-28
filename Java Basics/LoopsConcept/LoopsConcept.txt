@@ -1,0 +1,36 @@
+Loops In Java:
+-> Use to Repeat Work in Code
+
+3 Types of Loops in Java : 
+
+1) While
+2) For loop
+2) Do while 
+
+1) While loop : 
+
+while (Condition) {
+    // do something
+    xyz++; 
+}
+
+Loop will work until the condition is True. 
+
+2) For Loop : 
+
+for (initialisation ; Condition ; Updation ) {
+    // do something 
+}
+
+initialisation is done for the counter or say - Iterator (i)
+
+we can use any loop for any question but 
+For Loop compress the code, so its a best choice
+
+3) Do While Loop :
+
+do {
+
+} while (something);
+
+here first work is done then condition is applied. 
