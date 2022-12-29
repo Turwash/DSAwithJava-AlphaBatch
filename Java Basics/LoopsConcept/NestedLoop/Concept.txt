@@ -1,0 +1,69 @@
+NestedLoop Start Pattern Printing concept: 
+
+1) 
+
+*
+**
+***
+****
+
+Three steps to tackle the problem : 
+
+1) Lines i.e Row (4) -> Outer loop -> 4 times 
+2) number of time star is being printed  -> Inner Loop  (i times)
+i.e 1st line 1 star , 2nd line 2 star...
+3) What to print? here - * 
+
+2) 
+
+****
+***
+**
+*
+
+for inverted stars, the code logic is
+in every line , our star is equal to (numberofline - line + 1)
+for(int star = 1; star <= (n-line+1); star++){
+
+3) 
+
+1
+12
+123
+1234
+
+we will directly print our number other than stars
+
+for (int line = 1 ; line <=4 ; line++){
+
+            //inner loop for one line
+            for(int number =1; number<=line ; number++){
+                System.out.print(number); // we will print number i.e number for count
+            }
+            System.out.println();
+        }
+    }
+
+
+4) Character Pattern:
+
+
+A
+BC
+BCD
+BCDE
+
+we will take a char ch = 'A' , variable here and in our nested loop 
+we will increase this ch variable , ch++ ; after every loop 
+and nested loop will be from 1 to n , n is 4 here
+
+  int n =4;
+        char ch = 'A';
+        for(int line=1 ; line<=n ; line++){
+            for(char alpha = 1 ; alpha<=line ; alpha++){
+                System.out.print(ch);
+                ch++;
+            }
+            System.out.println();
+        }
+    }
