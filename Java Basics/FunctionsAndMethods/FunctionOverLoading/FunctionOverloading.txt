@@ -1,0 +1,35 @@
+What Is Function OverLoading?? 
+
+-> In same class, Multiple Function with same name name but different parameters
+
+This is a great fuctionality by Java 
+Asin Function Overloading we do not have to remember the names of each 
+same type functions name, we will give them same name and 
+then by the help of parameters the exact Function will be called itself
+
+for example : in a calcultor class , i have created functions for multiply
+
+multiply1 (int a , int b); it takes integers for multiplication
+multiply2 (float a , float b); it takes Float for multiplication
+multiply3 (double a , double b); it takes Double for multiplication
+multiply4 (int a , int b , int c); it takes three numbers for multiplication
+
+but in java we can give them same name , and by the help of parameters 
+the exact function will be called so : -
+
+in java this is accepted -> and is called Function Overloading 
+
+multiply (int a , int b); 
+multiply (float a , float b); 
+multiply (double a , double b); 
+multiply (int a , int b , int c); 
+
+** Function over loading checks The PARAMETERS not your RETURNTYPE 
+i.e 
+int sum (int a , int b);
+float sum(int a, int b); 
+this is ERROR as parameters are same for different functions
+
+Types: 
+1) Function Overloading Using Parameters - int sum(int a , int b) and int sum (int a , int b, int c)
+2) Function Overloading Using Data Types - int sum ( int a , int b ) and float sum ( float a, float b)

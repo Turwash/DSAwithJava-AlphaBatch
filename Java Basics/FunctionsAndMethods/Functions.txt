@@ -1,0 +1,102 @@
+--------------------------------- Fuctions : ---------------------------------
+
+Functions In Java : 
+Function is a piece of code , or block of code 
+which is written and can be called anytime we wish for and can perform task.
+
+its a reusable code, which is written once and can be performed 
+as many time we want 
+
+Function works between the input and the output , user gives some input and expects
+a desired output, functions are the pre written codes which can give the expected 
+output to the user. 
+
+we have to call our function in our main function to perform action.
+
+METHOD:
+Method and Function is same, 
+the functions which are written inside a class , that becomes the method of that class
+in c++ we can write function outside class. 
+but in java we write codes in one class only.
+
+
+--------------------------------- Syntax : ---------------------------------
+
+returnType Function_name () { // to know funtion is returning any value or not
+    //body
+
+    return statement; 
+}
+
+MAIN FUNCTION -> Is the function which compiler compiles first 
+we write in java - public static void main (string args[])
+here void is a return type of main function , 
+void means empty as this function return nothing to us.
+
+public static is an acess modifiers (will learn in oops concept in detail)
+
+(main is also a reserved keyword in java we cant use main anywhere else)
+
+
+--------------------------------- Function with Parameters ---------------------------------
+Syntax with Parameters:
+
+returnType name (type param1 , type param2){
+
+    // body
+
+    return statement;
+}
+
+---------------------------------  Parameters vs Argument ---------------------------------
+Two Types of Parameters in a Function:
+1) Formal Parameters or Parameters
+2) Actual Parameters or Argument 
+
+
+Those values which comes as an input in our function, are called Parameters or Formal Parameters
+Those values we pass in a function call is called arguments or Actual parameters
+
+
+---------------------------------  Memeory and Functions ---------------------------------
+
+What hapens in a memeory when we write or call a function? 
+Function takes memory in Call stack 
+Call stack tracks- which function is calling which function 
+and which are the function is being called in the memory 
+
+Main function is stored in the 1st or say bottom of the stack , in a stack frame
+All the variables , inputs and every information related to the function is stored,
+and when There is a function calling in the Main function. 
+it goes to the second stage of the stack where the another function is stored. 
+and if that function will call another function the new function will be stored 
+in the next upper stack. and so on.. 
+
+* When the function is called then the memory get reserved for the called
+funtion in the stack 
+
+The part of the memory which stores values in stack format , Function is stored there
+
+-> After getting executed till return statement in the function , the function 
+gets removed from the stack and lets our memory be free
+thats why return keyword is important.
+
+we will study this call stack function  in RECURSION Chapter.. 
+call stack is the basics of RECURSION
+
+---------------------------------  Call by Value ---------------------------------
+
+* The parameters in the fuction maked the copy of the arguments called 
+from main function 
+so call by value is this only
+the value called in a particular function will only change that function variables
+not the main function variables
+it makes copy and perform changes and return us the changes
+
+FORMAL PARAMETER IS A COPY OF ACTUAL PARAMETER (ARGUMENT)
+
+THE FUNCTIONS IN WHICH WE PASS THE ORIGINAL VALUE IS CALLED CALL BY REFERENCE
+THE FUNCTIONS IN WHICH WE PASS THE COPIED VALUE TO A FUNCTION IS CALLED CALL BY VALUE
+VARIABLE COPY GOES TO THE FUNCTION CALL - CALL BY VALUE
+JAVA IS A CALL BY VALUE LANGUAGE, IN JAVA WE DO CALL BY VALUE ONLY.
+IN C++ WE DO CALL BY REFERENCE.

@@ -1,0 +1,12 @@
+There are two types of methods in Java : 
+
+1) User defined methods: 
+- The methods which are defined by us and then we call that , are called user defined
+methods, for example for factorial we created Factorial() Function. 
+2) Inbuilt methods: 
+- Inbuilt methods are the pre defined methods that we use in our coding, we dont
+write the code for them , they are already pre defined , we just call the method
+and use it functionalities.
+example-  in Math class we have methods like - max,min,sqrt,pow methods
+example- for scanner we use sc.nextInt() method 
+These are Inbuilt Methods

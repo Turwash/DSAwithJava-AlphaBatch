@@ -1,0 +1,26 @@
+Method Scope : 
+-> Method scope means if a variable is defined in a function 
+we can use that variable anywhere in the function after the declaration
+but not before the declaration.
+and if a variable is defined in one function we cant use that in main function or
+any other function.
+we have to then call it by giving parameters to use that variable not directly
+
+
+Block Scope : 
+
+-> 
+{
+    {
+    int 45;
+    syso(int); // this will not give error
+} 
+ syso(int) // this will give error because it is out of the braces
+}
+
+curly braces are called blocks , so the variables comes under these blocks
+there scope becomed that block only , can be used in that block only. 
+
+
+Class scope is also there which have access modifiers - public , private & protected
+will learn in OOPS.. 

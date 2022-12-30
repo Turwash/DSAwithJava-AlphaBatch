@@ -1,0 +1,37 @@
+In Binary Number system we read about
+Bitwise Operator and This will be In detail in chapter
+BIT MANUPULATION
+
+Bit is - 0,1 that is the language of computer
+
+
+Unique Numbers in maths are:
+
+0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9. total -> 10 
+Thats why this number system is called decimal number system 
+Dec means 10 
+
+Binary Number system only has 0 and 1
+Bi = 2 numbers (0,1)
+
+
+----------------------------Binary Decimal Chart : ----------------------------
+
+DECIMAL         |           BINARY  
+                 |
+   0            |        0            
+   1            |        01
+   2            |        10
+   3            |        11
+   4            |        100
+   5            |        101
+   6            |        110
+   7            |        111
+   8            |        1000
+
+
+   How to convert Binary to decimal 
+   if we have number 101 , we will first multpily the last digit 1 with 2 power 0
+   then second last digit 0 with 2 power 1 and then third last digit with 2 power 2
+   then we will add 
+   1(4)+0(2)+1(1) = 5
